@@ -81,7 +81,7 @@ const Reel = ({ src, username, description, likes, shares, bookmarks }: ReelProp
       <div className="h-[20%] w-full bg-stone-900/60 absolute bottom-0 rounded-xl">
         <div className="flex px-8 py-2 items-center gap-4">
           <img
-            src="https://scontent.flhe41-1.fna.fbcdn.net/v/t39.30808-6/479727655_598622603145869_3670785583776364117_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGic5rYl_A-GO41gF3TdiHOLwx98lDFf-8vDH3yUMV_76ua1JEVYUcUhdc84z4gRf79z6PD-yPYIyyY0X3Hm-S5&_nc_ohc=_OQQis_3wl0Q7kNvwF48G1z&_nc_oc=Adkxlq3oh02pBZMNDZMqlca_PzZTA4-0C6TjSfoveJDMpAkK4Qcp5HxSJyb-eC4MutM&_nc_pt=1&_nc_zt=23&_nc_ht=scontent.flhe41-1.fna&_nc_gid=F9vaCISWaAcAOBI329aD_w&oh=00_AfRvmZcyBerZmIrtAJLJQtY8ZnrFhb0sD66c3R9ZP_FNLw&oe=688BBF4D"
+            src="/myimg.jpg"
             alt="profile"
             className="w-[30px] h-[30px] rounded-full"
           />

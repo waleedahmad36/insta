@@ -1,16 +1,15 @@
 import { Home, Film, Send, Compass, User, User2, Settings, Plus, LogOut } from "lucide-react";
 import Image from "next/image";
+import WaleedStagramLogo from "./WaleedStagramLogo";
 
 export default function Sidebar() {
   return (
     <div className="flex flex-col justify-between h-full p-4">
       {/* Top Logo */}
-      <div className="flex items-center gap-2 px-2">
-        <h1 className="text-xl font-bold">InstaReels</h1>
-      </div>
+        <WaleedStagramLogo/>
 
       {/* Menu */}
-      <div className="mt-10 flex flex-col gap-6">
+      <div className="mt-10 flex flex-col gap-4">
         <NavItem icon={<Home size={24} />} label="Home" />
         <NavItem icon={<Film size={24} />} label="Reels" />
         <NavItem icon={<Send size={24} />} label="Messages" />
